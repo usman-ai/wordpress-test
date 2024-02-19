@@ -9,7 +9,7 @@
 <body <?php body_class(); ?>>
 
 <header class="bg-gray-800 text-white py-4">
-    <div class="container mx-auto">
+    <div class="container mx-auto flex justify-between">
         <h1><?php bloginfo('name'); ?></h1>
         <nav>
             <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
